@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B64C92181B74FC0800AD96BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92171B74FC0800AD96BC /* main.m */; };
+		B64C92201B74FC3500AD96BC /* Bartender.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C921F1B74FC3500AD96BC /* Bartender.m */; };
+		B64C92231B74FCC100AD96BC /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92221B74FCC100AD96BC /* Customer.m */; };
+		B64C92261B75221800AD96BC /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92251B75221800AD96BC /* Bar.m */; };
+		B64C92291B753A0C00AD96BC /* HappyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92281B753A0C00AD96BC /* HappyManager.m */; };
+		B64C922C1B753A2800AD96BC /* AngryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C922B1B753A2800AD96BC /* AngryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		B64C92141B74FC0800AD96BC /* Customer-Bartender */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Customer-Bartender"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64C92171B74FC0800AD96BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B64C921E1B74FC3500AD96BC /* Bartender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bartender.h; sourceTree = "<group>"; };
+		B64C921F1B74FC3500AD96BC /* Bartender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bartender.m; sourceTree = "<group>"; };
+		B64C92211B74FCC100AD96BC /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		B64C92221B74FCC100AD96BC /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		B64C92241B75221800AD96BC /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		B64C92251B75221800AD96BC /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		B64C92271B753A0C00AD96BC /* HappyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyManager.h; sourceTree = "<group>"; };
+		B64C92281B753A0C00AD96BC /* HappyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyManager.m; sourceTree = "<group>"; };
+		B64C922A1B753A2800AD96BC /* AngryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngryManager.h; sourceTree = "<group>"; };
+		B64C922B1B753A2800AD96BC /* AngryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				B64C92171B74FC0800AD96BC /* main.m */,
+				B64C92241B75221800AD96BC /* Bar.h */,
+				B64C92251B75221800AD96BC /* Bar.m */,
+				B64C921E1B74FC3500AD96BC /* Bartender.h */,
+				B64C921F1B74FC3500AD96BC /* Bartender.m */,
+				B64C92211B74FCC100AD96BC /* Customer.h */,
+				B64C92221B74FCC100AD96BC /* Customer.m */,
+				B64C92271B753A0C00AD96BC /* HappyManager.h */,
+				B64C92281B753A0C00AD96BC /* HappyManager.m */,
+				B64C922A1B753A2800AD96BC /* AngryManager.h */,
+				B64C922B1B753A2800AD96BC /* AngryManager.m */,
 			);
 			path = "Customer-Bartender";
 			sourceTree = "<group>";
@@ -119,6 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B64C92181B74FC0800AD96BC /* main.m in Sources */,
+				B64C92291B753A0C00AD96BC /* HappyManager.m in Sources */,
+				B64C92261B75221800AD96BC /* Bar.m in Sources */,
+				B64C922C1B753A2800AD96BC /* AngryManager.m in Sources */,
+				B64C92231B74FCC100AD96BC /* Customer.m in Sources */,
+				B64C92201B74FC3500AD96BC /* Bartender.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
